@@ -75,6 +75,11 @@
     border-radius: .1em
 }
 
+.fa-chevron-up {
+    color: black;
+    font-size: x-large;
+}
+
 .fa-pull-left {
     float: left
 }

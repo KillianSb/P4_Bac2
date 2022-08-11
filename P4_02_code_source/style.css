@@ -90,8 +90,10 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
+    width: auto;
+    height: auto;
 }
 
 .b-parallax {
@@ -367,7 +369,7 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 30%;
+        top: 50%;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -685,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -745,6 +747,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    text-shadow: 1px 1px 2px black;
 }
 
 .portfolio-thumb {
@@ -762,7 +765,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(0 0 0 / 70%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -784,8 +787,9 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
     text-shadow: 1px 1px 2px black;
+    font-size: 25px;
 }
 
 .texte-p-white {
@@ -824,19 +828,47 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
+    width: auto;
+    height: auto;
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
+    width: auto;
+    height: auto;
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
+    width: auto;
+    height: auto;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("img/image-de-presentation.webp");
+    width: auto;
+    height: auto;
+}
+
+.img-responsive {
+    width: 270px;
+    height: 270px;
+}
+
+.col-sm-12 img {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: 215px;
+}
+
+.center-block {
+    height: 100px;
+    width: 100px;
 }
 
 @media (max-width: 1024px) {
