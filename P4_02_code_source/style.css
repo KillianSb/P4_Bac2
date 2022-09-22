@@ -455,6 +455,10 @@ nav .caret {
     margin-bottom: 40px;
 }
 
+.btn {
+    margin: 0 5px 5px 0;
+}
+
 .btn.pull-right {
     margin: 0 0 5px 5px;
 }
@@ -517,6 +521,8 @@ button {
 }
 
 .scrollToTop {
+    width: 40px;
+    height: 40px;
     position: fixed;
     bottom: 20px;
     right: 20px;
